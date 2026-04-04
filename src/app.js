@@ -22,7 +22,9 @@ import authRouter from './routes/auth.routes.js'
   @description register user
   @access public
   */
-authRouter.route("/register").post()
+
 app.use("/api/v1/auth",authRouter)
+
+
 
 export {app}
